@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-stack-go-awq8
     spec:
       containers:
-      - image: quay.io/redhat-appstudio/user-workload:johnmcollier-tenant-devfile-stack-go-awq8
+      - image: quay.io/redhat-appstudio/user-workload@sha256:de2d710763e59949520933ca635ae1939578f270080991dfdde049b3f62133cf
         name: my-go
         ports:
         - containerPort: 8081
